@@ -1,0 +1,34 @@
+SISTEMA DE COMPRA E VENDA - SIMPLES 
+
+
+consiste basicamente em um conjunto de listas que contem itens que podem ser movidos 
+
+Criar um endpoint para gerar um relatório das vendas efetuadas, filtrar por
+data ou por vendedor ou por cliente e exportar em pdf e para excel.
+
+
+• Criar teste unitário e de integração em um dos módulos a sua escolha.
+
+• Consumir protudos da API externa (https://github.com/keikaavousi/fakestore-api)
+
+• Criar forma de personalizar o preço do produto na venda e/ou compra
+
+• Demonstre conhecimentos em Docker, orquestração de containers
+
+utilizando: Kubernetes, Docker Swarm, Rancher ou outros, e utilizando
+serviços de computação em nuvem como: GCP, Aws, Oracle (pode ser em
+vídeo explicativo, arquivo de configuração, outros).
+
+rotas - recebem argumentos 
+    Venda;
+    • Vendedor;
+    • Compra;
+    • Comprador;
+    • Estoque;
+
+venda - realiza venda de um produto -  registra quem comprou e subtrai um produto do banco de dados - ou consome do endpoint 
+
+compra - realiza o registro da compra de um produto - quem comprou e dados do produto
+
+
+banco de dados - MYSQL - ORQUESTRA A TABELA 
